@@ -54,5 +54,5 @@ Working prototype. Voice commands, photo capture, audio recording, AI execution,
 
 ## OLD Repo that needs cleaning up 
 
-[github.com/yourusername/smartBracelet](https://github.com/FabriGu/smartBracelet)
+[github.com/FabriGu/smartBracelet](https://github.com/FabriGu/smartBracelet)
 
