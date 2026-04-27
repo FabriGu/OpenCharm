@@ -17,18 +17,6 @@ Currently it is just a button interaction but there is technically also an imple
 Press and hold button = record voice until you stop pressing
 Press button once = snap image
 
-### VOICE MODE:
-
-1. You wear a small ESP32 microcontroller on your wrist (camera + mic built in)
-2. Say a wake word like "record" — it starts listening
-3. Say what you need — *"commit my changes"*, *"take a note"*, whatever
-4. Say "stop" — it sends your audio to a relay server on your local network
-5. The server transcribes your speech and hands it to Claude Code
-6. Claude Code does the thing
-7. You get a Telegram message: done
-
-You can also say "capture" to snap a photo (whiteboard, error on a screen, anything) and include that as context.
-
 ## Why
 
 AI tools are powerful but they chain you to a keyboard and screen. This project breaks that chain. It's about **freedom** — accessing the same AI capabilities from anywhere in your space, hands-free, eyes-free.
