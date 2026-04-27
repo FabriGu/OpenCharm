@@ -11,7 +11,7 @@ Walk around. Be outside. Be cooking. Be anywhere. Touch Grass. Just talk to your
 
 ## How It Works
 
-Currently it is just a button interaction but there is technically also an implementation version with a tinyML model but it requires a LOT more training data to work. 
+Currently it is just a button interaction.
 
 ### BUTTON MODE:
 Press and hold button = record voice until you stop pressing
