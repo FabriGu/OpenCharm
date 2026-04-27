@@ -1,0 +1,57 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.env.local
+.env.*.local
+**/googleCredentials/*.json
+**/googleCredentials/*.key
+*.pem
+*.key
+credentials.h
+
+# Temp files
+/tmp/
+*.log
+
+# Captured data
+*.wav
+*.raw
+
+# Large media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Training samples (large, user-generated)
+scripts/training/samples/
+scripts/recording/samples/
+
+# Claude Code
+.claude/
