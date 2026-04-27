@@ -1,0 +1,20 @@
+# Spatial Bracelet Relay Server Dependencies
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Telegram Bot API
+python-telegram-bot>=20.0
+
+# HTTP client for Telegram API
+httpx>=0.24.0
+
+# Multipart form parsing
+python-multipart>=0.0.6
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Audio transcription (Whisper)
+faster-whisper>=1.0.0
