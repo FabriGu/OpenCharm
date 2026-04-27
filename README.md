@@ -13,11 +13,11 @@ Walk around. Be outside. Be cooking. Be anywhere. Touch Grass. Just talk to your
 
 Currently it is just a button interaction but there is technically also an implementation version with a tinyML model but it requires a LOT more training data to work. 
 
-###BUTTON MODE:
+### BUTTON MODE:
 Press and hold button = record voice until you stop pressing
 Press button once = snap image
 
-###VOICE MODE:
+### VOICE MODE:
 
 1. You wear a small ESP32 microcontroller on your wrist (camera + mic built in)
 2. Say a wake word like "record" — it starts listening
