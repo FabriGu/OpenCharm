@@ -1,4 +1,4 @@
-# SmartBracelet + Claude Code - Quick Start Guide
+# OpenCharm + Claude Code - Quick Start Guide
 
 **Goal:** Get voice commands executing code in under 30 minutes
 

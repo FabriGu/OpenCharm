@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Spatial Bracelet Relay Server
+OpenCharm Relay Server
 
 Receives images and audio from the XIAO ESP32S3 via HTTP POST,
 analyzes with Claude Vision/Whisper, and sends results to Telegram.
@@ -168,7 +168,7 @@ async def analyze_text_with_ollama(text: str, context: str = "") -> str:
         logger.error(f"All Ollama models failed. Is VPN connected? Base URL: {OLLAMA_BASE_URL}")
         return f"[Ollama unavailable - transcription was: {text}]"
 
-# System prompt for spatial bracelet assistant - ULTRA CONCISE
+# System prompt for OpenCharm assistant - ULTRA CONCISE
 # This prompt is optimized for wearable use: quick, actionable, no fluff
 SYSTEM_PROMPT = """You are a wearable AI assistant. Respond in 1-2 sentences MAX.
 
@@ -351,7 +351,7 @@ async def lifespan(app: FastAPI):
     """Modern lifespan handler for startup and shutdown."""
     # STARTUP
     logger.info("=" * 60)
-    logger.info("SPATIAL BRACELET RELAY SERVER")
+    logger.info("OPENCHARM RELAY SERVER")
     logger.info("=" * 60)
     logger.info(f"AI Backend: {AI_BACKEND.upper()}")
     logger.info("-" * 60)
@@ -395,7 +395,7 @@ async def lifespan(app: FastAPI):
 
 # FastAPI app with lifespan handler
 app = FastAPI(
-    title="Spatial Bracelet Relay",
+    title="OpenCharm Relay",
     description="Forwards bracelet captures to Telegram",
     lifespan=lifespan
 )
@@ -514,8 +514,8 @@ async def _call_openrouter(image_b64: str, prompt: str) -> str:
             headers={
                 "Authorization": f"Bearer {OPENROUTER_API_KEY}",
                 "Content-Type": "application/json",
-                "HTTP-Referer": "https://github.com/spatial-bracelet",
-                "X-Title": "Spatial Bracelet"
+                "HTTP-Referer": "https://github.com/FabriGu/OpenCharm",
+                "X-Title": "OpenCharm"
             },
             json={
                 "model": OPENROUTER_MODEL,
@@ -608,7 +608,7 @@ async def send_telegram_text(text: str) -> bool:
 async def root():
     """Root endpoint with status."""
     return {
-        "service": "Spatial Bracelet Relay",
+        "service": "OpenCharm Relay",
         "status": "running",
         "telegram_configured": bool(TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID),
         "last_capture": last_capture

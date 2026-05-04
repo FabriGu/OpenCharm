@@ -1,10 +1,10 @@
-# SmartBracelet Network Architecture Diagrams
+# OpenCharm Network Architecture Diagrams
 
 ## System Overview
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                          SmartBracelet System                            │
+│                            OpenCharm System                              │
 └─────────────────────────────────────────────────────────────────────────┘
 
 ┌──────────────┐         ┌──────────────┐         ┌──────────────┐

@@ -1,4 +1,4 @@
-# Spatial Bracelet Relay Server Dependencies
+# OpenCharm Relay Server Dependencies
 
 # Web framework
 fastapi>=0.100.0

@@ -1,4 +1,4 @@
-# Spatial Bracelet Relay Server
+# OpenCharm Relay Server
 
 Receives images and audio from the XIAO ESP32S3 bracelet via HTTP POST, converts audio to OGG/Opus, and forwards to Telegram where Hermes Agent processes them.
 
@@ -27,8 +27,8 @@ sudo apt install ffmpeg
 
 1. Open Telegram and message `@BotFather`
 2. Send `/newbot`
-3. Choose a name (e.g., "Spatial Bracelet")
-4. Choose a username (e.g., `spatial_bracelet_bot`)
+3. Choose a name (e.g., "OpenCharm")
+4. Choose a username (e.g., `opencharm_bot`)
 5. Copy the HTTP API token
 
 ### 4. Get Your Chat ID

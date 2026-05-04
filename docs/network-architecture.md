@@ -1,4 +1,4 @@
-# SmartBracelet Network Architecture Design
+# OpenCharm Network Architecture Design
 
 **Author:** Network Infrastructure Design Agent
 **Date:** 2026-03-25
@@ -298,7 +298,7 @@ Reply with:
 ```python
 ALLOWED_PATHS = [
     '/Users/fabrizioguccione/Projects/OpenCharm',
-    '/tmp/smartbracelet-*'  # Temp files
+    '/tmp/opencharm-*'  # Temp files
 ]
 
 def validate_path(path: str) -> bool:

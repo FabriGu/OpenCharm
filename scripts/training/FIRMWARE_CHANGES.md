@@ -222,7 +222,7 @@ Update the include statement if the library name changed:
 #include <reference-kws-off-on-50_inferencing.h>
 
 // NEW (update based on your exported library name):
-#include <smartbracelet-keywords-v2_inferencing.h>
+#include <opencharm-keywords-v2_inferencing.h>
 ```
 
 ## Summary of Changes

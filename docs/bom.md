@@ -1,4 +1,4 @@
-# DigiKey Order List - Smart Bracelet
+# DigiKey Order List - OpenCharm
 
 > **Note:** The current button-only firmware uses the ESP32S3, camera, mic,
 > NeoPixel LED, button, and battery. IMU, haptic driver, and vibration

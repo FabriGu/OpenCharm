@@ -1,4 +1,4 @@
-# SmartBracelet Network Infrastructure Design - Executive Summary
+# OpenCharm Network Infrastructure Design - Executive Summary
 
 **Date:** 2026-03-25
 **Agent:** Network Infrastructure Design Agent

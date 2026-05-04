@@ -20,7 +20,7 @@ ESP32 --[WiFi STA]--> iPhone Hotspot --[Internet]--> Laptop
 
 **Target (SoftAP Mode):**
 ```
-ESP32 [192.168.4.1] --[WiFi AP "SmartBracelet"]--> Laptop [192.168.4.2]
+ESP32 [192.168.4.1] --[WiFi AP "OpenCharm"]--> Laptop [192.168.4.2]
                                                    (direct, reliable)
 ```
 
@@ -42,7 +42,7 @@ ESP32 [192.168.4.1] --[WiFi AP "SmartBracelet"]--> Laptop [192.168.4.2]
 // WiFi SoftAP Configuration (when WIFI_MODE_SOFTAP = 1)
 // ESP32 creates its own WiFi network - laptop connects directly
 // =============================================================================
-#define SOFTAP_SSID             "SmartBracelet"
+#define SOFTAP_SSID             "OpenCharm"
 #define SOFTAP_PASSWORD         "spatial123"      // Min 8 characters for WPA2
 #define SOFTAP_CHANNEL          6                 // WiFi channel (1, 6, or 11 recommended)
 #define SOFTAP_MAX_CLIENTS      2                 // Max simultaneous connections
@@ -194,7 +194,7 @@ void setupSoftAP() {
 
 ## Problem Encountered
 
-**Symptom:** macOS connects to "SmartBracelet" WiFi for ~1 second, then automatically disconnects.
+**Symptom:** macOS connects to "OpenCharm" WiFi for ~1 second, then automatically disconnects.
 
 **Root Cause:** macOS Captive Portal Detection
 

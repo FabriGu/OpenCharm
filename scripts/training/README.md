@@ -1,6 +1,6 @@
 # Edge Impulse Keyword Spotting Training
 
-Automated training scripts for the Smart Bracelet keyword spotting model.
+Automated training scripts for the OpenCharm keyword spotting model.
 
 ## Keywords
 

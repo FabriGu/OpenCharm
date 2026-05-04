@@ -36,7 +36,7 @@ load_dotenv()
 
 # Configuration
 API_KEY = os.getenv("EDGE_IMPULSE_API_KEY")
-PROJECT_NAME = os.getenv("PROJECT_NAME", "smartbracelet-keywords-v2")
+PROJECT_NAME = os.getenv("PROJECT_NAME", "opencharm-keywords-v2")
 SAMPLES_DIR = Path(__file__).parent / "samples"
 OUTPUT_DIR = Path(__file__).parent / "output"
 FIRMWARE_LIB_DIR = Path(__file__).parent.parent.parent / "firmware" / "lib"

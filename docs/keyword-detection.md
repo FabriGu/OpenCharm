@@ -1,4 +1,4 @@
-# Spatial Bracelet - Keyword Detection Lag Analysis
+# OpenCharm - Keyword Detection Lag Analysis
 
 **Date:** March 21, 2026
 **Issue:** Voice commands have extreme lag and/or don't respond at all

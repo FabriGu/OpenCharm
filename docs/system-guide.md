@@ -1,4 +1,4 @@
-# Spatial Bracelet System Guide
+# OpenCharm System Guide
 **Date:** March 16, 2026
 **Status:** Working MVP - Image & Audio capture with AI analysis
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-The Spatial Bracelet is a wearable AI assistant built on the XIAO ESP32S3 Sense. It captures images and audio from your physical workspace and sends them to an AI for analysis, with responses delivered via Telegram.
+OpenCharm is a wearable AI assistant built on the XIAO ESP32S3 Sense. It captures images and audio from your physical workspace and sends them to an AI for analysis, with responses delivered via Telegram.
 
 **Key Features:**
 - **Image capture**: Quick button press takes a photo, AI analyzes it
@@ -34,7 +34,7 @@ The Spatial Bracelet is a wearable AI assistant built on the XIAO ESP32S3 Sense.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        SPATIAL BRACELET                              │
+│                           OPENCHARM                                  │
 │                     (XIAO ESP32S3 Sense)                            │
 │                                                                      │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐            │
@@ -201,7 +201,7 @@ pio device monitor
 Example output:
 ```
 =================================
-Spatial Bracelet - WiFi Firmware
+OpenCharm - WiFi Firmware
 =================================
 Scanning for networks...
 Found 5 networks:
@@ -347,7 +347,7 @@ Use this prompt to continue development in a future session:
 **CONTINUATION PROMPT:**
 
 ```
-I'm continuing work on the Spatial Bracelet project. Here's the current state:
+I'm continuing work on the OpenCharm project. Here's the current state:
 
 ## Working System
 - XIAO ESP32S3 Sense with camera + PDM microphone
